@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+}
+
+img.tv{
+	width: 500px;
+}
+
+img.remote{
+	width: 350px;
+}
+
+img#me{
+	width: 120px;
+	position: absolute;
+	margin-top: 35px;
+	margin-left: 170px;
+}
+
+img#work{
+	width: 120px;
+	position: absolute;
+	margin-top: 85px;
+	margin-left: 160px;
+}
+
+img#contact{
+	width: 120px;
+	position: absolute;
+	margin-top: 190px;
+	margin-left: 140px;
+	
+}
+
+img#blog{
+	width: 260px;
+}
+
+img#mypic{
+	height: 177px;
+}
+
+section.blog{
+	position: absolute;
+	z-index: 10;
+	left: 29%;
+	top: 84%;
+}
+
+main.tvfull{
+	position: absolute;
+	transform: scale(1.5,1.5);
+	z-index: 0;
+	left: 450px;
+	top: 35px;
+}
+
+section.remote{
+	position: absolute;
+	z-index: 0;
+	left: 2.8vw;
+
+}
+
+section.buttons{
+	position: absolute;
+	z-index: 1;
+	left: 2.8vw;
+
+}
+
+main.remote{
+	position: absolute;
+	transform: scale(1.2,1.2);
+	top: 67vh;
+	bottom: 0
+}
+
+/*main.everything{
+	transform: scale(1.1,1.1);
+}*/
+
+
+p{
+	position: absolute;
+	width: 300px;
+	text-align: center;
+	left: 85px;
+	top: 148px;
+	font-family: helvetica;
+	font-size: 9.5pt;
+
+}
+
+body.index{
+	/* background-color: #ceddaa; */
+	background-color: white;
+}
+
+
+/* stylising links */
+
+* a{
+	color: black;
+
+}
+
+iframe{
+	opacity: 0%;
+}
+
+
+
+#innertv {
+	position: absolute;
+	left: 431px;
+	top: 123.5px;
+	width: 516px;
+	height: 312px;
+	z-index: 10;
+
+}
+*/
